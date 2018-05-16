@@ -30,13 +30,12 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#features">Features</a></li>
+          <li><a href="#features">Product</a></li>
           <li class="menu-has-children"><a href="">Tutorial</a>
             <ul>
               <li class="menu-has-children"><a href="#">Java</a>
                 <ul>
-                  <li><a href="#">Wait My Tutorial</a></li>
+                  <li><a href="javainstalasi.jsp">Wait My Tutorial</a></li>
                 </ul>
               </li>
               <li class="menu-has-children"><a href="#">React</a>
@@ -56,7 +55,7 @@
               </li>
             </ul>
           </li>
-          <li><a href="#team">Team</a></li>
+          <!--<li><a href="#team">Team</a></li>-->
           <li><a href="#gallery">Gallery</a></li>          
           <li><a href="#contact">Contact Us</a></li>
         </ul>
@@ -64,15 +63,11 @@
     </div>
   </header><!-- #header -->
 
-  <!--==========================
-    Intro Section
-  ============================-->
   <section id="intro">
 
     <div class="intro-text">
       <h2>Welcome to My Profile</h2>
       <p>My Jobs Developer Website & Mobile App</p>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
 
     <div class="product-screens">
@@ -94,29 +89,6 @@
   </section><!-- #intro -->
 
   <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about" class="section-bg">
-      <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title">About Us</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br>
-            sunt in culpa qui officia deserunt mollit anim id est laborum
-          </p>
-        </div>
-
-   
-
-      </div>
-    </section><!-- #about -->
-
-    <!--==========================
-      Product Featuress Section
-    ============================-->
     <section id="features">
       <div class="container">
 
@@ -138,24 +110,24 @@
             <div class="row">
 
               <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight data-wow-delay="0.2s">
                 <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+                <h4 class="title"><a href="">Creew & Payrol Web</a></h4>
+                <p class="description">Aplikasi berbasis web dapat di fungsikan untuk mendeteksi creew yang akan berlayar dan menurunkan creew sampai dengan perhitungan payrol nya dan di lengkapi dengan report sebagai bahan laporannya.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+                <h4 class="title"><a href="">Creew & Payrol Mobile</a></h4>
+                <p class="description">Aplikasi berbasis Android dapat di fungsikan untuk mendeteksi creew yang akan berlayar dan menurunkan creew sampai dengan perhitungan payrol nya dan di lengkapi dengan report sebagai bahan laporannya.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+                <h4 class="title"><a href="">APR Web</a></h4>
+                <p class="description">Aplikasi berbasis web dapat di fungsikan sebagai pembantu dokter dalam pencatatan rekam medik sampai laporan yang terintegrasi ke mobile.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+                <h4 class="title"><a href="">APR Mobile</a></h4>
+                <p class="description">Aplikasi berbasis Android dapat di fungsikan sebagai pembantu menemukan hasil laporan yang sudah di buat oleh dokter dalam APR websait.</p>
               </div>
             </div>
 
@@ -167,90 +139,9 @@
 
     </section><!-- #features -->
     
-    <!--==========================
-      Our Team Section
-    ============================-->
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">Our Team</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="pages/img/team/team-1.jpg" alt=""></div>
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="pages/img/team/team-2.jpg" alt=""></div>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="pages/img/team/team-3.jpg" alt=""></div>
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="pages/img/team/team-4.jpg" alt=""></div>
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #team -->
-
-    <!--==========================
-      Gallery Section
-    ============================-->
-    <section id="gallery">
+    <section id="gallery" style="padding-top: 0px;">
       <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title">Gallery</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
         <div class="row no-gutters">
-
           <div class="col-lg-4 col-md-6">
             <div class="gallery-item wow fadeInUp">
               <a href="pages/img/gallery/gallery-1.jpg" class="gallery-popup">
@@ -304,17 +195,14 @@
       </div>
     </section><!-- #gallery -->
 
-    <!--==========================
-      Contact Section
-    ============================-->
     <section id="contact">
       <div class="container">
         <div class="row wow fadeInUp">
 
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
-              <h3>Avilon</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              <h3>Evan Arifial H</h3>
+              <p>Anda juga bisa hubungi saya di beberapa alamat sosial media berikut atau bisa juga mengirimkan pesan langsung di websait ini.</p>
               <div class="social-links">
                 <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                 <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -329,17 +217,17 @@
             <div class="info">
               <div>
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
+                <p>Jakarta</p>
               </div>
 
               <div>
                 <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
+                <p>evan123hidayat@gmail.com</p>
               </div>
 
               <div>
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55s</p>
+                <p>081213955483</p>
               </div>
 
             </div>
@@ -377,48 +265,8 @@
 
       </div>
     </section><!-- #contact -->
-    
-    
-     <section id="clients">
-      <div class="container">
-
-        <div class="row wow fadeInUp">
-
-          <div class="col-md-2">
-            <img src="pages/img/clients/client-1.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="pages/img/clients/client-2.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="pages/img/clients/client-3.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="pages/img/clients/client-4.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="pages/img/clients/client-5.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="pages/img/clients/client-6.png" alt="">
-          </div>
-
-        </div>
-      </div>
-    </section>
-    
-    
-
   </main>
 
-  <!--==========================
-    Footer
-  ============================-->
   <footer id="footer">
     <div class="container">
       <div class="row">
@@ -433,7 +281,6 @@
         <div class="col-lg-6">
           <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
             <a href="#intro" class="scrollto">Home</a>
-            <a href="#about" class="scrollto">About</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Use</a>
           </nav>
@@ -443,8 +290,6 @@
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-  <!-- JavaScript Libraries -->
   <script src="pages/lib/jquery/jquery.min.js"></script>
   <script src="pages/lib/jquery/jquery-migrate.min.js"></script>
   <script src="pages/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -453,11 +298,7 @@
   <script src="pages/lib/superfish/hoverIntent.js"></script>
   <script src="pages/lib/superfish/superfish.min.js"></script>
   <script src="pages/lib/magnific-popup/magnific-popup.min.js"></script>
-
-  <!-- Contact Form JavaScript File -->
   <script src="pages/contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
   <script src="pages/js/main.js"></script>
 
 </body>
